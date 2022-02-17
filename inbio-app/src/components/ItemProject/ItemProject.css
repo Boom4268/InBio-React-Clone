@@ -1,0 +1,49 @@
+.wrapper-item {
+  margin-top: 40px;
+  height: 330px;
+  overflow: hidden;
+  position: relative; }
+  .wrapper-item:hover .item-project {
+    height: 105%;
+    width: 105%; }
+    .wrapper-item:hover .item-project + .infor {
+      transform: translateY(-124px); }
+  .wrapper-item .item-project {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: all 1.5s ease; }
+  .wrapper-item .infor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 18px 10px;
+    transition: all 0.3s ease; }
+    .wrapper-item .infor .time {
+      display: flex;
+      align-items: center;
+      font-size: 12px; }
+      .wrapper-item .infor .time i {
+        margin-right: 3px; }
+    .wrapper-item .infor .heading {
+      text-transform: uppercase;
+      margin-top: 10px; }
+      .wrapper-item .infor .heading a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        transition: all 0.3s ease; }
+        .wrapper-item .infor .heading a:hover {
+          color: #DA1F26; }
+    .wrapper-item .infor .text-infor {
+      font-size: 12px;
+      margin-top: 10px; }

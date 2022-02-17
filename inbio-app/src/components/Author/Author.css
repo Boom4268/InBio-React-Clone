@@ -1,0 +1,22 @@
+.container-fluid .author {
+  margin: 20px 10px; }
+  .container-fluid .author .author-img {
+    min-height: 307px;
+    border-radius: 5px;
+    background-image: url("../../images/Inbio-Head-Image-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container-fluid .author .infor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: .5px;
+    padding: 30px; }
+    .container-fluid .author .infor h2 {
+      margin-bottom: 20px;
+      color: #222222; }
+    .container-fluid .author .infor p {
+      line-height: 30px;
+      font-size: 15px;
+      color: #888888; }

@@ -1,0 +1,40 @@
+.contact .container-fluid{
+    padding: 0;
+}
+.contact-img{
+    background-image: url('../../images/middle-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 45px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-img .btn-contact{
+    display: inline-block;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #DA1F26;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.contact-img p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 516px) {
+    .contact-img{
+        padding: 120px 35px;
+    }
+}
+

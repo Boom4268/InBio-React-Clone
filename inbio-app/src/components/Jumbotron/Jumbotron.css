@@ -1,0 +1,24 @@
+.jumbotron {
+  height: 100vh;
+  background-image: url("../../images/Inbio-Head-Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .jumbotron h2 {
+    margin-bottom: 30px; }
+  .jumbotron p {
+    margin: 0; }
+  .jumbotron a {
+    display: inline-block;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #DA1F26;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 30px; }

@@ -1,0 +1,21 @@
+@import './variable';
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-aliges {
+    display: flex;
+    align-items: center;
+}
+
+@mixin button {
+    background: none;
+    border: none;
+    border-radius: 3px;
+    background-color: $btn-color;
+    color: $text-color;
+    padding: 10px 25px;
+}

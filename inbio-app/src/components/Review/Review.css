@@ -1,0 +1,32 @@
+.infor-text {
+    padding: 10px;
+    position: absolute;
+    transition: all .5s ease-in-out; 
+}
+.infor-text .text {
+      margin-bottom: 20px; 
+}
+.infor-text .text span {
+    margin: 0 10px;
+    font-style: italic; 
+}
+.infor-text .text i {
+    color: #DA1F26;
+    font-size: 16px; 
+}
+.infor-text .infor-reviewer {
+    display: flex;
+    align-items: center; 
+}
+.infor-text .infor-reviewer .img-reviewer {
+    margin-right: 15px; 
+}
+.infor-text .infor-reviewer .img-reviewer img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+}
+.infor-text .infor-reviewer .name-major {
+    display: flex;
+    flex-direction: column; 
+}
